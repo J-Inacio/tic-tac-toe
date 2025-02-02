@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jogo da velha</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="placar">
+        <div class="container-jogadores">
+          <div id="jogador1" class="sequencia-vencedora">
+            <h3>Jogador 1: O | Vitórias:</h3>
+            <h3 id="placar1">0</h3>
+          </div>
+          <div id="jogador2">
+            <h3>Jogador 2: O | Vitórias:</h3>
+            <h3 id="placar2">0</h3>
+          </div>
+        </div>
+        <div id="rodada"><h1>Vez do Jogador: 1 - X</h1></div>
+      </div>
+      <div class="grid">
+        <div class="quadrados" id="0"></div>
+        <div class="quadrados" id="1"></div>
+        <div class="quadrados" id="2"></div>
+        <div class="quadrados" id="3"></div>
+        <div class="quadrados" id="4"></div>
+        <div class="quadrados" id="5"></div>
+        <div class="quadrados" id="6"></div>
+        <div class="quadrados" id="7"></div>
+        <div class="quadrados" id="8"></div>
+      </div>
+      <div class="painel">
+        <button id="reset-btn">Reiniciar</button>
+      </div>
+    </div>
+  </body>
+</html>
