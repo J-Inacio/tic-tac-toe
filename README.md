@@ -17,3 +17,5 @@ Este é um simples jogo da velha desenvolvido com **HTML, CSS e JavaScript**.
 4. ✅ O jogo detecta vitórias ou empates automaticamente.
 5. 🔄 Clique em **"Reset"** para recomeçar.
 
+## 🖼️ Preview
+![Jogo da Velha](Screenshot1.png)
